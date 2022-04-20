@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: monospace;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #454d66;
+    padding: 20px;
+    text-align: center;
+  }
+
+.avatar {
+    /* Rounded border */
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+.avatar__image {
+    /* Rounded border */
+    border-radius: 50%;
+    border-style:inset;
+    border-color:#309975;
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+}
+
+.name {
+    margin: auto;
+    padding:20px;
+    color: #fff;
+    font-weight: 100;
+}
+
